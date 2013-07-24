@@ -2,9 +2,9 @@
 
 VIM shortcut / autocmd to reload the entire page in chrome, or just the style once files changed.
 
-This plugin will call the Chrome Remote Debugging Protocol v1.0 with nodejs.
+This plugin will call the [Remote Debugging Protocol v1.0] (https://developers.google.com/chrome-developer-tools/docs/protocol/1.0/) with nodejs.
 
-Javascript plugin chrome-remote-interface is used for talking to chrome.
+Javascript plugin [chrome-remote-interface] (https://github.com/cyrus-and/chrome-remote-interface) is used for talking to chrome.
 
 
 ## Installation ##
@@ -36,4 +36,4 @@ Whenever you modified your css, scss or sass files, stylesheets on your webpage 
 
 When you modified javascript, html or erb files, the entire page will be reloaded instead.
 
-You may also manually trigger the full page reload by <leader>p.
+You may also manually trigger the full page reload by `<leader>p`.
