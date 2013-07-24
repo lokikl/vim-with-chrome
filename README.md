@@ -28,7 +28,7 @@ Start your chrome with remote debugging enabled.
 
     google-chrome --remote-debugging-port=9222
 
-Now please open your website in chrome. Please be noted that hostname other than "localhost", "127.0.0.1" or "192.168.*.*" will be ignored.
+Now please open your website in chrome. Please be noted that hostname other than "localhost", "127.0.0.1" or "192.168.*.*" will be ignored. And the chrome dev tool should be closed.
 
 That's it. Now whenever you modified your css, scss or sass files in vim, local stylesheets on your webpage will be reloaded.
 
